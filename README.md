@@ -1,0 +1,1 @@
+This is my first Flask App. This app is a sample of my portfolio and blog page.

@@ -1,0 +1,7 @@
+TEMPLATING
+1. create a folder 'templates'. that is the recognized directory for rendering templates
+2. go back to your flaskapp page 'app.py' and add 'render_template' module from flask.
+            $**** from flask import Flask, render_template *****$
+3. under the @<appname>.route("/")
+   def <routename>():
+        return render_template('template location')
