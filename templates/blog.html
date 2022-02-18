@@ -9,25 +9,38 @@
     <title>My Blog</title>
 </head>
 <body>
-    
-        <!-- navbar -->
-        <div class="navigation">
-            <header class="main-header">
-                <a href="#home">
-                    <img src="/static/img/manologo.png" alt="" class="logo" >
-                </a>
-            </header>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#code-plateau">Code Plateau</a></li>
-                    <li><a href="{{url_for('blog')}}">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <!-- navbar end -->
+
+    <!-- contents -->
+    <div class="contents">
+        <!-- colored container  -->
+        <div class="colored-container"></div>
+        <!-- end of container  -->
+
+        <!-- main contents  -->
+        <div class="main-contents"></div>
+        <!-- end of main-contents  -->
+        
+    </div>
+    <!-- end of contents  -->
+
+    <!-- navbar -->
+    <div class="navigation">
+        <header class="main-header">
+            <a href="#home">
+                <img src="/static/img/manologo.png" alt="" class="logo" >
+            </a>
+        </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#code-plateau">Code Plateau</a></li>
+                <li><a href="{{url_for('blog')}}">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- navbar end -->
 </body>
 </html>
