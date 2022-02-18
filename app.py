@@ -10,7 +10,7 @@ def home():
 
 @app.route("/blog") #directs to blog route
 def blog():
-    return "<h1>Welcome to my blog</h1>"
+    return render_template('blog.html')
 
 
 if __name__ == "__main__":
